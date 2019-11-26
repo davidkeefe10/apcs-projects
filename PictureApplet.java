@@ -58,7 +58,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Massachusetts",
                 "Your Choice (Phoenix, Sacramento, Denver, Hartford, Atlanta, Indianapolis, Boston, Albany, Oklahoma City, Providence, Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if (question1 == "Boston") {
+        if (question1.equals"Boston") {
             score++;
             correct++;
         }
@@ -67,7 +67,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of California?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if (question2 == "Sacramento") {
+        if (question2.equals"Sacramento") {
             score++;
             correct++;
         }
@@ -76,7 +76,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Alaska?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if (question3 == "Juneau") {
+        if (question3.equals"Juneau") {
             score = score + 2;
             correct++;
         }
@@ -85,7 +85,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Delaware?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if (question4 == "Dover")
+        if (question4.equals"Dover")
         {
             score = score + 2;
             correct++;
@@ -95,7 +95,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Ohio?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if(question5 == "Columbus")
+        if(question5.equals"Columbus")
         {
             score = score + 3;
             correct++;
@@ -105,7 +105,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Michigan?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if(question6 == "Lansing")
+        if(question6.equals"Lansing")
         {
             score = score + 3;
             correct++;
@@ -115,7 +115,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Mississippi?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if(question7 == "Jackson")
+        if(question7.equals"Jackson")
         {
             score = score + 4;
             correct++;
@@ -125,7 +125,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Wisconsin?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if(question8 == "Madison")
+        if(question8.equals"Madison")
         {
             score = score + 4;
             correct++;
@@ -135,7 +135,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of Nevada?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if(question9 == "Carson City")
+        if(question9.equals"Carson City")
         {
             score = score + 5;
             correct++;
@@ -145,7 +145,7 @@ public class PictureApplet extends JApplet {
                 "What is the capital of South Dakota?",
                 "Your Choice (Albany, Annapolis, Atlanta, Augusta, Austin, Baton Rouge, Bismarck, Boise, Boston, Carson City, Charleston, Cheyenne, Columbia, Columbus, Concord, Denver, Des Moines, Dover, Frankfort, Harrisburg, Hartford, Helena, Honolulu, Indianapolis, Jackson, Jefferson City, Juneau, Lansing, Lincoln, Little Rock, Madison, Montgomery, Montpelier, Nashville, Oklahoma City, Olympia, Phoenix, Pierre, Providence, Raleigh, Richmond, Sacramento, Salem, Salt Lake City, Santa Fe, Springfield, St. Paul, Tallahassee, Topeka, Trenton)",
                 JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]);
-        if(question10 == "Pierre")
+        if(question10.equals"Pierre")
         {
             score = score + 5;
             correct++;
