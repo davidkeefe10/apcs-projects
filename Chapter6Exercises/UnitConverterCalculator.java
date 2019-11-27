@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class ConversionCalculator
+public class UnitConverterCalculator
 {
     public static void main(String[] args)
     {
