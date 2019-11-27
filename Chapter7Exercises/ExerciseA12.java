@@ -2,7 +2,7 @@
  * This class calculates the sum of all
  * the digits of a non-negative number.
  */
-public class Exercise12
+public class ExerciseA12
 {
     public int sumDigits(int n)
     {
