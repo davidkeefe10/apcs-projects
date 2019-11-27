@@ -1,5 +1,5 @@
 # apcs-projects
-A short collection of Java projects I've created in AP Computer Science.
+### A short collection of Java projects I've created in AP Computer Science.
 
 These programs showcase the Java principles I have learned in AP Computer Science A this year,
 including Object-Oriented Programming, recursion, image integration, boolean expressions, and
