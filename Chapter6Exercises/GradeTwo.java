@@ -2,7 +2,7 @@
  * This class converts number grades to letter grades.
  */
 
-public class Grade2
+public class GradeTwo
 {
     private double numericGrade;
     private String letterGrade;
@@ -11,7 +11,7 @@ public class Grade2
      * Creates a grade object.
      * @param g the numeric grade
      */
-    public Grade2(double g)
+    public GradeTwo(double g)
     {
         numericGrade = g;
     }
