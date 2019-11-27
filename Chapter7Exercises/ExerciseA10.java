@@ -1,7 +1,7 @@
 /**
  * This class determines if an integer is a prime number.
  */
-public class Exercisex10
+public class ExerciseA10
 {
     public static boolean isPrime(int n)
     {
