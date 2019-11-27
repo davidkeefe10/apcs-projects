@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class YesNoApplication
+public class YesNoTester
 {
     public static void main(String[] args)
     {
