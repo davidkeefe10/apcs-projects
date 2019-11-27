@@ -1,7 +1,7 @@
 /**
  * This class determines if a number is a perfect square.
  */
-public class Exercise11
+public class ExerciseA11
 {
     public static boolean isPerfectSquare(int n)
     {
