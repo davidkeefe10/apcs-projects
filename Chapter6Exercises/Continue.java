@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class Continue
+public class YesNoApplication
 {
     public static void main(String[] args)
     {
