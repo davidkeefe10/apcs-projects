@@ -1,11 +1,11 @@
 /**
  * This class tests the Exercise10 class.
  */
-public class Exercise10Tester
+public class ExerciseA10Tester
 {
     public static void main(String[] args)
     {
-        Exercise10 test = new Exercise10();
+        ExerciseA10 test = new ExerciseA10();
         System.out.println(test.isPrime(18));
     }
 }

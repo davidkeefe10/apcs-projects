@@ -2,9 +2,9 @@
  * This class prints the letter grade corresponding to a numeric value given by the user.
  */
 
-import java. util.Scanner;
+import java.util.Scanner;
 
-public class Grade2Printer
+public class GradeTwoPrinter
 {
     public static void main(String[] args)
     {
@@ -12,7 +12,7 @@ public class Grade2Printer
         System.out.println("Enter a numeric value:"); double numGrade =
             in.nextDouble();
 
-        Grade2 g = new Grade2(numGrade);
+        GradeTwo g = new GradeTwo(numGrade);
 
         System.out.println("Letter grade: " + g.getLetterGrade()) ;
     }

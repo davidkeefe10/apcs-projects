@@ -2,7 +2,7 @@
  * This class finds the first n twin primes,
  * which are prime numbers that have a difference of 2
  */
-public class Exercise14
+public class ExerciseA14
 {
     /**
      * Determines if a number is prime.

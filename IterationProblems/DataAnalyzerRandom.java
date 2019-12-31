@@ -2,7 +2,7 @@
  * This class generate 100 random numbers between
  * 0 and 100 and prints the average and maximum.
  */
-public class RandomDataAnalyzer
+public class DataAnalyzerRandom
 {
     public static void main(String[] args)
     {

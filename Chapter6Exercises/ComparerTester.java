@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class NumberChecker
+public class ComparerTester
 {
     public static void main(String[] args)
     {
